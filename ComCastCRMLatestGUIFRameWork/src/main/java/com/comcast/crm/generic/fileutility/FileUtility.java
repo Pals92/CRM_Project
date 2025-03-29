@@ -10,7 +10,9 @@ public class FileUtility {
 		Properties pObj = new Properties();
 		pObj.load(fis);
 		String value = pObj.getProperty(key);
+		System.out.println(value);
 		return value;
+
 	}
 
 }
