@@ -27,7 +27,7 @@ public class DataBaseUtility {
 			DriverManager.registerDriver(driverRef);
 			conn = DriverManager.getConnection(IPathConstatnt.DB_URL,IPathConstatnt.DB_UN,IPathConstatnt.DB_PWD );
 		} catch (Exception e) {
-
+			e.printStackTrace();
 		}
 	}
 
@@ -37,7 +37,7 @@ public class DataBaseUtility {
 			DriverManager.registerDriver(driverRef);
 			conn = DriverManager.getConnection(IPathConstatnt.DB_URL,IPathConstatnt.DB_UN,IPathConstatnt.DB_PWD );
 		} catch (Exception e) {
-
+			e.printStackTrace();
 		}
 	}
 
