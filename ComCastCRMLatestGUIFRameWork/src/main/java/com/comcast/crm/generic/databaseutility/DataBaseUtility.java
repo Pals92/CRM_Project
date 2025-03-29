@@ -27,7 +27,7 @@ public class DataBaseUtility {
 			DriverManager.registerDriver(driverRef);
 			conn = DriverManager.getConnection(IPathConstatnt.DB_URL,IPathConstatnt.DB_UN,IPathConstatnt.DB_PWD );
 		} catch (Exception e) {
-
+			System.out.println(e);
 		}
 	}
 
